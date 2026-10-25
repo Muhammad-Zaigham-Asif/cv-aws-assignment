@@ -79,6 +79,10 @@ The EC2-hosted website endpoint stops working, and instance-local files, configu
 
 See `evidence.txt` for the AWS verification output. The evidence should be collected from the actual resources before submission.
 
-## Cleanup
+## EC2
+http://16.178.150.158/
+<img width="1912" height="940" alt="image" src="https://github.com/user-attachments/assets/214d17a7-3033-4854-9f47-b63c00ae10e5" />
 
-After grading, remove the resources created for this assignment if they are no longer needed. Delete all object versions before deleting a versioned S3 bucket, and verify resources in every AWS Region used.
+## Lambda function
+https://a4edahpervknw5t34nf6nfpqdu0dcmuc.lambda-url.ap-southeast-2.on.aws/
+<img width="1892" height="960" alt="image" src="https://github.com/user-attachments/assets/4fed159f-a1db-448f-b127-82c77c4aba9b" />
