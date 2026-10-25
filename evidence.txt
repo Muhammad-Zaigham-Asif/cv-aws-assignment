@@ -1,0 +1,27 @@
+AWS CV ASSIGNMENT EVIDENCE
+
+Region: ap-southeast-2 (Sydney)
+S3 Bucket: cv-23l-3058
+EC2 Instance: cv-ec2-23l-3058
+EC2 Instance ID: i-05206484dfb765919
+EC2 Public IPv4: 16.178.150.158
+Lambda Function: cv-func-23l-3058
+EC2 IAM Role: cv-ec2-role-23l-3058
+Lambda IAM Role: cv-lambda-role-23l-3058
+
+NOTE:
+This file is a starter record, not proof that every AWS check passed.
+Run collect-evidence.sh from a terminal configured with AWS CLI credentials and permissions, using the bucket name, EC2 public IP, and Lambda Function URL as arguments. Review the generated evidence.txt, investigate any failed checks, and commit the actual output before submission.
+
+Required checks:
+1. AWS caller identity
+2. S3 Block Public Access
+3. S3 versioning
+4. S3 website objects
+5. EC2 IAM policy
+6. Lambda IAM policy
+7. EC2 security group
+8. EC2 instance details
+9. EC2 and Lambda endpoint responses
+10. Lambda CloudWatch logs
+11. Lambda log retention
